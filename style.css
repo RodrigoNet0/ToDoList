@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Nunito+Sans:opsz,wght@6..12,200&family=Poppins:ital,wght@0,100;1,300&family=Sora:wght@300;400;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  outline: none;
+}
+
+body{
+  background: url("https://th.bing.com/th/id/R.72b2ca74358fed525b32df752fda9a4c?rik=HDq8NhFp5kVqhA&pid=ImgRaw&r=0");
+}
+
+.container{
+  background-color: #d1d1d1;
+  width: 500px;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 100px auto 0;
+}
+
+.input-task{
+  border: none;
+  border-radius: 5px;
+  width: 300px;
+  height: 40px;
+  padding-left: 10px;
+}
+
+.add-task{
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  background-color: #0033;
+  color: #ffffff;
+  font-size: 17px;
+  padding: 0 15px;
+  float: right;
+  cursor: pointer;
+}
+
+.add-task:hover{
+  opacity: 0.8;
+  
+}
+
+.add-task:active{
+  opacity: 0.6;
+}
+
+.list-task{
+  width: 100%;
+  list-style: none;
+  margin-top: 30px;
+}
+
+img {
+  height: 25px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.task{
+  background-color: #f2f2f2;
+  box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  
+}
+
+.task:hover img{
+  opacity: 1;
+  
+}
+
+.done{
+    background-color: #8fac55;
+    text-decoration: line-through;
+}
