@@ -1,3 +1,3 @@
 # ToDoList
-Versão para Desktop
+App de lista 
 (Contribua, faça um fork)..
